@@ -2,7 +2,7 @@
   "name": "Backend Learning Tracker",
   "short_name": "Backend Tracker",
   "description": "Track your backend development learning roadmap and study streak.",
-  "start_url": "./backend-learning-tracker.html",
+  "start_url": "./index.html",
   "scope": "./",
   "display": "standalone",
   "orientation": "portrait",
