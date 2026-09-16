@@ -3,7 +3,7 @@
 // Bump CACHE_NAME whenever the cached files change, so old caches get replaced.
 const CACHE_NAME = "backend-tracker-v1";
 const APP_SHELL = [
-  "./backend-learning-tracker.html",
+  "./index.html",
   "./manifest.json",
   "./icon-192.png",
   "./icon-512.png"
@@ -50,7 +50,7 @@ self.addEventListener("fetch", function(event){
       }).catch(function(){
         // Offline and not cached — fall back to the main page for navigations
         if(event.request.mode === "navigate"){
-          return caches.match("./backend-learning-tracker.html");
+          return caches.match("./index.html");
         }
       });
     })
