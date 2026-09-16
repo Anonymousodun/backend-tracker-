@@ -1,0 +1,25 @@
+{
+  "name": "Backend Learning Tracker",
+  "short_name": "Backend Tracker",
+  "description": "Track your backend development learning roadmap and study streak.",
+  "start_url": "./backend-learning-tracker.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#12161C",
+  "theme_color": "#12161C",
+  "icons": [
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}
